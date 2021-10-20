@@ -8,7 +8,7 @@ $(function() {
 
         $.ajax({
             type:'GET',
-            url:ajax.php,
+            url:'ajax.php',
             data:txt,
             success:function(resultado) {
                 $('.div').html("Resultado: "+resultado);
